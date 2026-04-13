@@ -44,7 +44,7 @@ https://github.com/user-attachments/assets/0df3df51-6b27-4c7d-93ad-25c99ca8b643
 
 | Splash Screen | Stars List | Search | Rating Popup |
 |:---:|:---:|:---:|:---:|
-| <img src="screenshots/splash.png" width="180"/> | <img src="screenshots/list.png" width="180"/> | <img src="screenshots/search.png" width="180"/> | <img src="screenshots/rate.png" width="180"/> |
+| <img src="https://raw.githubusercontent.com/laamri/projet_mobile/main/screenshots/splash.png" width="180"/> | <img src="screenshots/list.png" width="180"/> | <img src="screenshots/search.png" width="180"/> | <img src="screenshots/rate.png" width="180"/> |
 
 
 ---

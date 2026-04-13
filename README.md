@@ -14,7 +14,11 @@
 
 ## 🎬 Demo Video
 
-> 🎥 **Watch the full walkthrough**
+
+
+> 🎬 **Watch the full walkthrough below**
+
+
 https://github.com/user-attachments/assets/0df3df51-6b27-4c7d-93ad-25c99ca8b643
 
 ---

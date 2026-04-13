@@ -36,7 +36,7 @@
 
 | Splash Screen | Stars List | Search | Rating Popup |
 |:---:|:---:|:---:|:---:|
-| <img src="screenshots/splash.jpg" width="180"/> | <img src="screenshots/list.jpg" width="180"/> | <img src="screenshots/search.jpg" width="180"/> | <img src="screenshots/popup.jpg" width="180"/> |
+| <img src="screenshots/splash.png" width="180"/> | <img src="screenshots/list.png" width="180"/> | <img src="screenshots/search.png" width="180"/> | <img src="screenshots/rate.png" width="180"/> |
 
 
 ---

@@ -1,6 +1,6 @@
 
 
-Uploading lab7.mp4…
+
 
 # ⭐ Stars Gallery — Android App
 
@@ -15,7 +15,7 @@ Uploading lab7.mp4…
 ## 🎬 Demo Video
 
 > 🎥 **Watch the full walkthrough**
-
+https://github.com/user-attachments/assets/0df3df51-6b27-4c7d-93ad-25c99ca8b643
 
 ---
 

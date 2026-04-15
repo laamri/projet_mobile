@@ -37,6 +37,20 @@
 
 ---
 
+</div>
+
+---
+
+## 🎬 Demo Video
+
+
+
+> 🎬 **Watch the full walkthrough below**
+
+
+
+---
+
 ## 🗂️ Project Structure
 
 ```

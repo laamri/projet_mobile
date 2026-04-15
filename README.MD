@@ -37,6 +37,8 @@ Cette application permet de gérer une liste d'étudiants stockée localement su
 > **Regardez la démonstration complète de l'application :**
 
 
+
+
 ### Ce que montre la vidéo
 
 | # | Scénario | Durée |

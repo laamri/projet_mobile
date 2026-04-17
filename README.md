@@ -1,6 +1,9 @@
 
 
-Uploading lab-15 (1).mp4…
+
+
+
+
 
 # 🎓 Gestion des Étudiants — Application Android SQLite
 
@@ -41,7 +44,7 @@ Cette application permet de gérer une liste d'étudiants stockée localement su
 > **Regardez la démonstration complète de l'application :**
 
 
-
+https://github.com/user-attachments/assets/800ab3e6-13e2-420c-a552-3aa9488917b8
 
 ### Ce que montre la vidéo
 

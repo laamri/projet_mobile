@@ -138,7 +138,5 @@ It does **not** currently include lap history or `InboxStyle` lap previews in th
 ---
 
 
-https://github.com/user-attachments/assets/9ba1cb56-76c0-4eca-bfe9-dc546c164a0a
-
 
 Developed for educational purposes as part of **LAB 16 - Mastering Services in an Android Application**.

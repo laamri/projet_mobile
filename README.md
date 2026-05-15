@@ -15,6 +15,12 @@ A robust Android application in Java that demonstrates how to build a **Foregrou
 - **Live UI Updates**: The main screen reflects the current service state in real time.
 - **Android 14 Ready**: Includes foreground service declarations and notification permission handling for modern Android versions.
 
+
+## Demo Video
+
+
+https://github.com/user-attachments/assets/99dd913e-9a19-4793-b8ab-8a6c91c9d569
+
 ## What Was Improved Compared to the Original Lab
 
 - Removed the stray `HLJSTAGSAFE1X` text that breaks compilation.
@@ -24,29 +30,8 @@ A robust Android application in Java that demonstrates how to build a **Foregrou
 - Added richer notification actions so the chronometer can be controlled without reopening the app.
 - Upgraded the basic screen into a cleaner, more polished stopwatch-style interface.
 
-## Demo Video
 
-Add your demo link here once the recording is uploaded:
 
-- **YouTube / Drive / LinkedIn demo**: `PASTE_VIDEO_LINK_HERE`
-
-Suggested video flow:
-
-1. Launch the app.
-2. Start the chronometer.
-3. Put the app in the background and show the persistent notification.
-4. Pause and resume from the notification.
-5. Reopen the app and show that the UI is still synchronized.
-6. Reset and stop the service.
-
-## Screenshots
-
-If you want, you can add screenshots under a `screenshots/` folder and reference them here:
-
-```md
-![Main Screen](screenshots/main-screen.png)
-![Notification Controls](screenshots/notification.png)
-```
 
 ## Tech Stack
 
@@ -104,6 +89,40 @@ This lab helps you understand:
 - How to communicate between an `Activity` and a `Service`
 - How to handle modern Android background execution restrictions
 
+
+## Main Concepts Learned in This Lab
+
+This lab mainly teaches how Android **Services** work, especially when an app needs to continue running in the background.
+
+- **Foreground Service**  
+  A service that keeps running in the background while showing a persistent notification. This is required for long-running visible tasks on modern Android.
+
+- **Bound Service**  
+  A service that an `Activity` can connect to using a `Binder` in order to exchange data or call methods directly.
+
+- **Service Lifecycle**  
+  The lab introduces the main lifecycle methods of a service:
+  - `onCreate()` for initialization
+  - `onStartCommand()` to receive actions and start work
+  - `onBind()` to allow connection from an Activity
+  - `onDestroy()` to clean up resources
+
+- **Foreground Notification**  
+  A foreground service must show a notification so the user knows the background task is active.
+
+- **Binder Communication**  
+  The `Binder` allows the Activity to get access to the service instance and stay synchronized with it.
+
+- **Background Timing Task**  
+  The service runs repeated work in the background to update the chronometer over time.
+
+- **Manifest and Permissions**  
+  The lab also teaches that services must be declared in `AndroidManifest.xml`, and that modern Android requires permissions such as notification permission for proper behavior.
+
+- **Modern Android Restrictions**  
+  The project shows that background execution is more restricted in recent Android versions, so foreground services and correct declarations are now essential.
+
+
 ## Current Scope
 
 This version currently supports:
@@ -117,5 +136,9 @@ This version currently supports:
 It does **not** currently include lap history or `InboxStyle` lap previews in the notification.
 
 ---
+
+
+https://github.com/user-attachments/assets/9ba1cb56-76c0-4eca-bfe9-dc546c164a0a
+
 
 Developed for educational purposes as part of **LAB 16 - Mastering Services in an Android Application**.

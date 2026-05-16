@@ -1,6 +1,6 @@
 # LAB 17 – Mastering BroadcastReceiver in Android
 
-## 📚 Course
+## Course
 
 **Mobile Programming: Android with Java**
 
@@ -48,7 +48,20 @@ By the end of this lab, we learned how to:
 
 ---
 
-# 🏗️ Project Overview
+# demo video :
+
+
+
+https://github.com/user-attachments/assets/857e6626-4991-49d7-b922-d49adf311b72
+
+
+
+
+
+
+
+
+#  Project Overview
 
 We created an Android application called:
 
@@ -94,7 +107,7 @@ This method is:
 
 ---
 
-## 📄 AirplaneModeReceiver.java
+##  AirplaneModeReceiver.java
 
 ```java
 public class AirplaneModeReceiver extends BroadcastReceiver {
@@ -118,7 +131,7 @@ public class AirplaneModeReceiver extends BroadcastReceiver {
 
 ---
 
-## 🔍 Important Concepts
+## Important Concepts
 
 ### `extends BroadcastReceiver`
 
@@ -155,7 +168,7 @@ Used to display quick messages for testing.
 
 ---
 
-# 💻 Step 3 – Static BroadcastReceiver (BOOT_COMPLETED)
+#  Step 3 – Static BroadcastReceiver (BOOT_COMPLETED)
 
 ## 🔹 What We Learned
 
@@ -168,7 +181,7 @@ It can work even when:
 
 ---
 
-## 📄 BootReceiver.java
+##  BootReceiver.java
 
 ```java
 public class BootReceiver extends BroadcastReceiver {
@@ -190,7 +203,7 @@ public class BootReceiver extends BroadcastReceiver {
 
 ---
 
-# 📜 Step 4 – Manifest Configuration
+#  Step 4 – Manifest Configuration
 
 ## 🔹 Permissions
 
@@ -218,7 +231,7 @@ This permission allows the application to receive the boot completed event.
 
 ---
 
-## 🔐 What We Learned About Security
+##  What We Learned About Security
 
 ### `android:exported="false"`
 
@@ -235,7 +248,7 @@ Important for:
 
 ---
 
-# 🔄 Step 5 – Managing Dynamic Receivers in MainActivity
+#  Step 5 – Managing Dynamic Receivers in MainActivity
 
 ## 🔹 Main Concepts Learned
 
@@ -287,7 +300,7 @@ sendBroadcast(intent);
 
 ---
 
-# 📢 Step 6 – Custom BroadcastReceiver
+#  Step 6 – Custom BroadcastReceiver
 
 ## 🔹 What We Learned
 
@@ -326,7 +339,7 @@ public class CustomEventReceiver extends BroadcastReceiver {
 
 ---
 
-## 📜 Manifest Declaration
+##  Manifest Declaration
 
 ```xml
 <receiver
@@ -336,9 +349,9 @@ public class CustomEventReceiver extends BroadcastReceiver {
 
 ---
 
-# 🎨 Step 7 – Simple User Interface
+#  Step 7 – Simple User Interface
 
-## 📄 activity_main.xml
+##  activity_main.xml
 
 ```xml
 <LinearLayout>
@@ -360,11 +373,11 @@ public class CustomEventReceiver extends BroadcastReceiver {
 
 ---
 
-# 🧪 Step 8 – Testing the Application
+#  Step 8 – Testing the Application
 
 ## Tests Performed
 
-### ✅ Dynamic Receiver Test
+###  Dynamic Receiver Test
 
 * Enable airplane mode
 * Disable airplane mode
@@ -372,14 +385,14 @@ public class CustomEventReceiver extends BroadcastReceiver {
 
 ---
 
-### ✅ Static Receiver Test
+###  Static Receiver Test
 
 * Restart the phone/emulator
 * Observe boot completed message
 
 ---
 
-### ✅ Custom Broadcast Test
+###  Custom Broadcast Test
 
 * Click button
 * Send custom event
@@ -387,7 +400,7 @@ public class CustomEventReceiver extends BroadcastReceiver {
 
 ---
 
-# 🧠 Key Concepts Learned
+#  Key Concepts Learned
 
 ## 🔹 Dynamic vs Static Receivers
 
@@ -400,7 +413,7 @@ public class CustomEventReceiver extends BroadcastReceiver {
 
 ---
 
-# 🔐 Android Security & Modern Restrictions
+#  Android Security & Modern Restrictions
 
 We learned that modern Android versions impose restrictions on broadcasts to improve:
 
@@ -418,7 +431,7 @@ Important concepts:
 
 # ⚠️ Best Practices Learned
 
-## ✅ Always unregister dynamic receivers
+##  Always unregister dynamic receivers
 
 ```java
 @Override
@@ -434,7 +447,7 @@ Prevents:
 
 ---
 
-## ✅ Avoid heavy operations inside `onReceive()`
+##  Avoid heavy operations inside `onReceive()`
 
 Because:
 
@@ -449,7 +462,7 @@ Use:
 
 ---
 
-## ✅ Prefer Dynamic Receivers when possible
+##  Prefer Dynamic Receivers when possible
 
 Benefits:
 
@@ -459,13 +472,13 @@ Benefits:
 
 ---
 
-## ✅ Use explicit permissions carefully
+##  Use explicit permissions carefully
 
 Only request permissions when necessary.
 
 ---
 
-# 📖 Real-World Applications of BroadcastReceiver
+#  Real-World Applications of BroadcastReceiver
 
 BroadcastReceivers are used in:
 
@@ -479,7 +492,7 @@ BroadcastReceivers are used in:
 
 ---
 
-# 🏁 Conclusion
+#  Conclusion
 
 In this lab, we successfully learned how Android BroadcastReceivers work and how to implement them correctly using Java.
 

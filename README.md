@@ -8,6 +8,15 @@ Ce projet est un laboratoire pratique sur l'utilisation du **NDK (Native Develop
 - Apprendre à communiquer un état de sécurité du code C++ vers l'interface Java.
 - Adapter le comportement de l'application selon l'intégrité de l'environnement.
 
+# Demo video 
+
+
+
+https://github.com/user-attachments/assets/617593ad-d3f8-4eb7-90e1-6223dcac83b1
+
+
+
+
 ## 📱 Ce que l'application fait
 L'application intègre une méthode native `isDebugDetected()` qui exécute plusieurs contrôles côté C++ :
 - Un contrôle de type **trace/debug** attaché.

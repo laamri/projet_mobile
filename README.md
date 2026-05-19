@@ -6,6 +6,14 @@ Ce projet est une démonstration complète de l'intégration de code natif **C++
 L'application `JNIDemo` illustre comment Java communique avec le code C++ natif via une bibliothèque partagée (`.so`) compilée avec **CMake**. Ce laboratoire couvre tout le cycle de développement JNI, de la configuration du build à la gestion de la mémoire et des ressources.
 
 ---
+# Demo video 
+
+
+
+https://github.com/user-attachments/assets/c7d0fcee-ae63-452b-a2bf-36bb37840fac
+
+
+
 
 # 🎯 Objectifs Pédagogiques
 À la fin de ce laboratoire, vous aurez appris à :

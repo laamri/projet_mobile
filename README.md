@@ -7,7 +7,14 @@ L'objectif principal est de naviguer entre différents écrans (fragments) au se
 
 ---
 
-## ✨ Ma Touche Personnelle (Modernisation)
+## deemo vedio 
+
+
+
+
+https://github.com/user-attachments/assets/7c861c69-8c36-4006-b3bb-1ef6f53417a6
+
+
 Par rapport aux étapes de base du laboratoire, j'ai ajouté plusieurs améliorations pour rendre l'application plus professionnelle :
 
 1.  **View Binding** : Utilisation du View Binding pour éliminer les `findViewById`, rendant le code plus performant et évitant les erreurs de type `null pointer`.

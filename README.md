@@ -8,6 +8,13 @@ Ce projet est une application Android démontrant l'utilisation des **Threads**,
 - Maîtriser le retour sur le UI Thread via `Handler` et `Looper.getMainLooper()`.
 - Utiliser `AsyncTask` (approche pédagogique) pour gérer le cycle complet d'une tâche asynchrone (Préparation, Exécution, Progression, Résultat).
 
+## demo vedio 
+
+
+https://github.com/user-attachments/assets/76f249bc-bfb2-49ce-8692-dee41f261f0a
+
+
+
 ## 🚀 Fonctionnalités
 L'application propose trois actions principales pour tester la réactivité de l'UI :
 

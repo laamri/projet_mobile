@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LAB 10 : Navigation Drawer</string>
+    <string name="navigation_drawer_open">Ouvrir le menu</string>
+    <string name="navigation_drawer_close">Fermer le menu</string>
+
+    <string name="nav_header_title">Développeur Android</string>
+    <string name="nav_header_subtitle">session.lab10@demo.com</string>
+
+    <string name="title_fragment1">Fragment Rose</string>
+    <string name="title_fragment2">Fragment Bleu</string>
+    <string name="title_list">Liste d\'Éléments</string>
+</resources>

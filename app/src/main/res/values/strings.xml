@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Lab 8: Programmation Asynchrone</string>
+    <string name="status_ready">Statut : Prêt</string>
+    <string name="status_loading_thread">Statut : Chargement de l\'image (Thread)...</string>
+    <string name="status_image_loaded">Statut : Image chargée via Thread !</string>
+    <string name="status_calc_running">Statut : Calcul intensif en cours...</string>
+    <string name="status_calc_progress">Statut : Progression... %1$d%%</string>
+    <string name="status_calc_finished">Statut : Calcul terminé ! Résultat = %1$d</string>
+    <string name="btn_load_thread">Charger image (Thread)</string>
+    <string name="btn_calc_async">Calcul lourd (AsyncTask)</string>
+    <string name="btn_toast">Afficher Toast</string>
+    <string name="toast_reactive">L\'interface est toujours réactive ! ✅</string>
+    <string name="toast_finished">Calcul terminé avec succès !</string>
+    <string name="note_asynctask">Note: AsyncTask est déprécié depuis Android 11, mais reste utile pour comprendre les concepts de base.</string>
+</resources>

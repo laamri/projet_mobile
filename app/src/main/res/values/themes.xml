@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.LAB19_Room_MVVM_Repository_ViewModel_LiveData_et_RecyclerView" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.LAB19_Room_MVVM_Repository_ViewModel_LiveData_et_RecyclerView" parent="Base.Theme.LAB19_Room_MVVM_Repository_ViewModel_LiveData_et_RecyclerView" />
+</resources>

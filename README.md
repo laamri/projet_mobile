@@ -3,6 +3,14 @@
 ## 📝 Présentation du Projet
 Ce laboratoire démontre l'implémentation d'une architecture Android moderne (**MVVM**) pour une application de gestion de notes. L'objectif est d'assurer une séparation claire des responsabilités, une persistance des données locale et une interface utilisateur réactive.
 
+## DEMO VEDIO
+
+
+https://github.com/user-attachments/assets/96e3896b-831e-4755-a093-0e9cc1c37c51
+
+
+
+
 ## 🚀 Fonctionnalités
 *   **Ajout de notes** : Saisie d'un titre et d'une description.
 *   **Affichage en temps réel** : Liste gérée par `RecyclerView` avec mise à jour automatique via `LiveData`.

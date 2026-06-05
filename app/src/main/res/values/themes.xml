@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TP20_Application_Number_Book_avec_Android_Contacts_et_API_distante_via_Retrofit" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.TP20_Application_Number_Book_avec_Android_Contacts_et_API_distante_via_Retrofit" parent="Base.Theme.TP20_Application_Number_Book_avec_Android_Contacts_et_API_distante_via_Retrofit" />
+</resources>

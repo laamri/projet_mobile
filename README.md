@@ -2,6 +2,15 @@
 
 Ce projet est une application Android complète développée en Java permettant d'explorer et d'exploiter les différents capteurs matériels d'un smartphone.
 
+
+## demo vedio 
+
+
+https://github.com/user-attachments/assets/fb1c18e5-3859-4cf2-8f4a-e7222a29d70d
+
+
+
+
 ## 📱 Fonctionnalités
 
 L'application est organisée via un menu latéral (Navigation Drawer) permettant d'accéder aux modules suivants :

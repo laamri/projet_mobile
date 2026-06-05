@@ -2,6 +2,15 @@
 
 Cette application Android permet de gérer des contacts en les synchronisant avec une base de données distante (MySQL) via une API REST développée en PHP et consommée avec Retrofit.
 
+## demo  vedio
+
+
+
+https://github.com/user-attachments/assets/8fd7dc5f-7748-436c-a1ba-26ad753cd7c9
+
+
+
+
 ## 🚀 Fonctionnalités
 - **Chargement local** : Lecture des contacts du téléphone via `ContentResolver`.
 - **Synchronisation** : Envoi des contacts locaux vers le serveur distant (MySQL).

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lab21_Capteurs_embarqués_Android</string>
+    <string name="navigation_drawer_open">Ouvrir le menu de navigation</string>
+    <string name="navigation_drawer_close">Fermer le menu de navigation</string>
+</resources>

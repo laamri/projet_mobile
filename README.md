@@ -12,6 +12,15 @@ Ce projet est une étude approfondie de la persistance des données sous Android
 
 ---
 
+## DEMO VEDIO
+
+
+
+https://github.com/user-attachments/assets/60f0c94a-216b-40c4-9f65-1a22fafabc46
+
+
+
+
 ## 🛠️ Détails des Tâches Réalisées
 
 ### Tâche 1 : Configuration & Crypto

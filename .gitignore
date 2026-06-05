@@ -1,0 +1,40 @@
+# Android Studio / IntelliJ
+.idea/
+.gradle/
+build/
+*.iml
+local.properties
+.DS_Store
+
+# Gradle
+.gradle
+/build
+/app/build
+/captures
+
+# External Native Build
+.externalNativeBuild
+.cxx
+
+# Device explorer files (caches)
+device-explorer/
+
+# Secrets
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+
+# Log files
+*.log
+
+# Android Keystore
+*.jks
+*.keystore
+*.pk8
+*.pem
+
+# Crashlytics
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties

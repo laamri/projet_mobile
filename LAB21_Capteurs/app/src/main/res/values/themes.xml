@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Lab21_Capteurs_embarqués_Android" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Main design colors. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Theme.Lab21_Capteurs_embarqués_Android" parent="Base.Theme.Lab21_Capteurs_embarqués_Android" />
+</resources>

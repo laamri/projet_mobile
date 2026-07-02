@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:text="Gestion Étudiants"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- ── AJOUTER ── -->
+    <TextView android:text="Ajouter un étudiant"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText android:id="@+id/etNom"
+        android:hint="Nom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText android:id="@+id/etPrenom"
+        android:hint="Prénom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button android:id="@+id/btnValider"
+        android:text="Valider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"/>
+
+    <!-- ── CHERCHER / SUPPRIMER ── -->
+    <TextView android:text="Chercher / Supprimer par ID"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText android:id="@+id/etId"
+        android:hint="ID étudiant"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <Button android:id="@+id/btnChercher"
+            android:text="Chercher"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"/>
+
+        <Button android:id="@+id/btnSupprimer"
+            android:text="Supprimer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <!-- ── RÉSULTAT ── -->
+    <TextView android:id="@+id/tvResultat"
+        android:text=""
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:padding="12dp"
+        android:background="#EFEFEF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

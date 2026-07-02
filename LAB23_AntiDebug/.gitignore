@@ -1,0 +1,29 @@
+# Android Studio & IntelliJ
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+*.iml
+
+# JNI/NDK
+obj/
+libs/
+
+# Android User Specific
+*.orig
+*.jks
+*.keystore
+*.apk
+*.bundle
+
+# Logs
+/logcat.txt

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ProjetWS</string>
+
+    <!-- Labels formulaire -->
+    <string name="titre_ajout">➕ Ajouter un Étudiant</string>
+    <string name="label_nom">Nom</string>
+    <string name="label_prenom">Prénom</string>
+    <string name="label_ville">Ville :</string>
+    <string name="label_sexe">Sexe :</string>
+    <string name="radio_homme">Homme</string>
+    <string name="radio_femme">Femme</string>
+    <string name="btn_ajouter">AJOUTER L\'ÉTUDIANT</string>
+
+    <!-- Villes Spinner -->
+    <string-array name="villes">
+        <item>Rabat</item>
+        <item>Casablanca</item>
+        <item>Marrakech</item>
+        <item>Fès</item>
+        <item>Tanger</item>
+        <item>Agadir</item>
+    </string-array>
+</resources>

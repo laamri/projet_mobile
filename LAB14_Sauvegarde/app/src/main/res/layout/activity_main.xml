@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- SECTION NOM -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="IDENTITÉ"
+            android:textColor="#1976D2"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:paddingBottom="4dp" />
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Saisissez votre NOM ici"
+            android:inputType="textPersonName"
+            android:background="@android:drawable/edit_text"
+            android:padding="12dp"
+            android:minHeight="48dp"
+            android:importantForAutofill="no" />
+
+        <!-- SECTION PRÉFÉRENCES -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PRÉFÉRENCES"
+            android:textColor="#1976D2"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:paddingTop="20dp"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Langue :"
+            android:textSize="14sp" />
+
+        <Spinner
+            android:id="@+id/spLang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:background="@android:drawable/btn_dropdown" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingTop="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Activer le thème sombre"
+                android:textSize="14sp" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/swDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!-- SECTION SÉCURITÉ -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SÉCURITÉ (Stockage Chiffré)"
+            android:textColor="#1976D2"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:paddingTop="20dp"
+            android:paddingBottom="4dp" />
+
+        <EditText
+            android:id="@+id/etToken"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Entrez un Token API secret"
+            android:inputType="textPassword"
+            android:background="@android:drawable/edit_text"
+            android:padding="12dp"
+            android:minHeight="48dp"
+            android:importantForAutofill="no" />
+
+        <!-- BOUTONS -->
+        <Button
+            android:id="@+id/btnSavePrefs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="SAUVEGARDER LES DONNÉES"
+            android:backgroundTint="#1976D2"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnLoadPrefs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CHARGER LES DONNÉES" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DDDDDD"
+            android:layout_marginVertical="16dp" />
+
+        <Button
+            android:id="@+id/btnSaveJson"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Générer Fichier JSON" />
+
+        <Button
+            android:id="@+id/btnLoadJson"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lire Fichier JSON" />
+
+        <Button
+            android:id="@+id/btnExternal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Test Stockage Externe" />
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="TOUT EFFACER"
+            android:backgroundTint="#D32F2F"
+            android:textColor="#FFFFFF" />
+
+        <!-- RÉSULTAT -->
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:padding="12dp"
+            android:background="#E3F2FD"
+            android:textColor="#0D47A1"
+            android:text="En attente d'action..."
+            android:textSize="14sp"
+            android:lineSpacingExtra="4dp" />
+
+    </LinearLayout>
+</ScrollView>

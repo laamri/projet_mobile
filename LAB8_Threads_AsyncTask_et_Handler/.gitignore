@@ -1,0 +1,28 @@
+# Fichiers de build
+.gradle/
+build/
+
+# IDE - Android Studio / IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Fichiers locaux et secrets
+local.properties
+.DS_Store
+
+# Captures d'écran et logs
+captures/
+*.log
+
+# Fichiers générés par le système
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# APKs et bundles générés
+*.apk
+*.apks
+*.aab

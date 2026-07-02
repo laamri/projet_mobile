@@ -1,0 +1,54 @@
+# Built artifacts
+bin/
+gen/
+out/
+build/
+.gradle/
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+/captures/
+.externalNativeBuild/
+.cxx/
+
+# Gradle
+.gradle/
+build/
+
+# Local configuration files (sdk path, etc)
+local.properties
+
+# Log files
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Mobile tools
+.mtj.tmp/
+
+# Package Files
+*.jar
+*.war
+*.ear
+*.bundle
+
+# Virtual machines
+.vagrant/
+
+# Secrets
+/google-services.json
+
+# Keys
+*.jks
+*.keystore
+!debug.keystore
